@@ -43,7 +43,7 @@ class App extends Component {
                     <div className="char__content">
                         {pageName === "characters" ? <CharList onCharSelected = {this.onCharSelected}/> : <ComicsList/>}
                         <ErrorBoundary>
-                            {pageName === "characters" ? <CharInfo charId = {selectedChar}/> : <SingleComic/>}
+                            <CharInfo charId = {selectedChar}/>
                         </ErrorBoundary>
                     </div>
 

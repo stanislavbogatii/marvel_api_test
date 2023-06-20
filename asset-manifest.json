@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/marvel_api_test/static/css/main.39d53028.chunk.css",
-    "main.js": "/marvel_api_test/static/js/main.fdd5e4c3.chunk.js",
-    "main.js.map": "/marvel_api_test/static/js/main.fdd5e4c3.chunk.js.map",
+    "main.js": "/marvel_api_test/static/js/main.e5d4b9da.chunk.js",
+    "main.js.map": "/marvel_api_test/static/js/main.e5d4b9da.chunk.js.map",
     "runtime-main.js": "/marvel_api_test/static/js/runtime-main.afcf0d6e.js",
     "runtime-main.js.map": "/marvel_api_test/static/js/runtime-main.afcf0d6e.js.map",
     "static/js/2.6110a4b8.chunk.js": "/marvel_api_test/static/js/2.6110a4b8.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.afcf0d6e.js",
     "static/js/2.6110a4b8.chunk.js",
     "static/css/main.39d53028.chunk.css",
-    "static/js/main.fdd5e4c3.chunk.js"
+    "static/js/main.e5d4b9da.chunk.js"
   ]
 }

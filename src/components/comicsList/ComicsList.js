@@ -83,7 +83,7 @@ class ComicsList extends Component {
                     className="comics__item"
                     key={id}
                     onClick={this.onFocusItem}>
-                    <a href="#">
+                    <a href="!#">
                         <img src={thumbnail} alt="ultimate war" className="comics__item-img"/>
                         <div className="comics__item-name">{title}</div>
                         <div className="comics__item-price">{price}$</div>

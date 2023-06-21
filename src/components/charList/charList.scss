@@ -3,23 +3,16 @@
 .char {
     &__content {
         margin-top: 50px;
-        display: grid;
-        @media screen and (min-width: 1700px){
-            grid-template-columns: 910px auto;
-        }
-        @media screen and (max-width: 1700px){
-            grid-template-columns: 685px auto;
-        }
+        display: flex;
+        column-gap: 35px;
+        
+        
         align-items: start;
     }
     &__grid {
         display: grid;
-        @media screen and (min-width: 1700px){
-            grid-template-columns: repeat(4, 200px);
-        }
-        @media screen and (max-width: 1700px){
-            grid-template-columns: repeat(3, 200px);
-        }
+        grid-template-columns: repeat(4, 200px);
+
         column-gap: 25px;
         row-gap: 30px;
     }

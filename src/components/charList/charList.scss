@@ -2,17 +2,16 @@
 
 .char {
     &__content {
+        position: relative;
         margin-top: 50px;
-        display: flex;
-        column-gap: 35px;
-        
-        
+        display: grid;
+        grid-template-columns: 850px 400px;
+        column-gap: 50px;
         align-items: start;
     }
     &__grid {
         display: grid;
         grid-template-columns: repeat(4, 200px);
-
         column-gap: 25px;
         row-gap: 30px;
     }
@@ -27,7 +26,7 @@
         img {
             width: 200px;
             height: 200px;
-            
+            object-fit: cover;
             transform: translate(-15px, -15px);
         }
         &_selected {
@@ -43,4 +42,3 @@
         color: #fff;
     }
 }
-

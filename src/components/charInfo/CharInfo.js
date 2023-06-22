@@ -14,11 +14,28 @@ class CharInfo extends Component {
         loading: false,
         error: false
     }
-
-    marvelServices = new MarvelService();
-
+    marvelServices = new MarvelService;
+    
+    
     componentDidMount() {
+        window.addEventListener("scroll", this.fixCharInfo);
         this.updateChar();
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener("scroll", this.fixCharInfo);
+    }
+
+    fixCharInfo = () => {
+        const charList = document.querySelector('.char__content');
+        const card = document.querySelector('.char__info')
+        const preRect = charList.getBoundingClientRect();
+        if (preRect.top <= 0) {
+            card.classList.add("fix");
+        }
+        if (preRect.top > 0) {
+            card.classList.remove("fix");
+        }
     }
 
     componentDidUpdate(prevProps, prevState) {
@@ -107,14 +124,12 @@ const View = ({char}) => {
                     {comics.length > 0 ? null : 'There is no comics with this character'}
                     {
                         comics.map((item, i) => {
-                            if (i <= 10) { 
-                                return (
-                                    <li key={i} className="char__comics-item">
-                                        {item.name}
-                                    </li>
-                                )
-                            }
-                            return null;
+                            if (i > 10) return; 
+                            return (
+                                <li key={i} className="char__comics-item">
+                                    {item.name}
+                                </li>
+                            )
                         })
                     }
                     

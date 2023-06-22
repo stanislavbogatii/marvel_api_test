@@ -2,9 +2,11 @@
 
 .char {
     &__info {
+        left: 1200px;
+        width: 400px;
         padding: 25px;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
-        position: relative;
+        // position: relative;
         z-index: 5;
         background-color: #fff;
         &-name {
@@ -62,7 +64,4 @@
         text-align: center;
     }
 
-}
-.button__main {
-    margin-right: 30px
 }

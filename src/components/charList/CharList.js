@@ -94,7 +94,6 @@ class CharList extends Component {
         )
         this.itemRefs[id].classList.add('char__item_selected');
         this.itemRefs[id].focus();
-        console.log(this.itemRefs)
     }
 
 

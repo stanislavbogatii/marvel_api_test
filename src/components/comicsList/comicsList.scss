@@ -1,6 +1,9 @@
+@import '../../style/variables.scss';
+
 .comics {
     &__grid {
         display: flex;
+        justify-content: space-around;
         width: 100%;
         flex-wrap: wrap;
         row-gap: 40px;
@@ -31,5 +34,35 @@
         &:hover {
             transform: translateY(-5px);
         }
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .comics {
+    &__item {
+        background-color: $dark;
+        height: 306.67px;
+        width: 400px;
+        justify-content: left;
+        border-radius: 5px;
+        img {
+            margin: 0;
+            border-radius: 5px;
+        }
+        a {
+            color: white;
+            display: flex;
+            column-gap: 10px;
+        }
+        &-price {
+            display: none;
+        }
+        &-name {
+            font-size: 20px;
+        }
+        &:hover {
+            color: white;
+        }
+    }
     }
 }

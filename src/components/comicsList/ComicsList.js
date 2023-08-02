@@ -107,8 +107,8 @@ class ComicsList extends Component {
         const content = !(loading || error) ? comics : null;
 
         return (
-            <div className="comics__list">
-                <div className='randomchar__content'>
+            <div className='randomchar__content'>
+                <div className="comics__list">
                     {spinner}
                     {errorMessage}
                     {content}

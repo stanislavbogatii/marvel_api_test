@@ -12,8 +12,8 @@ class AppHeader extends Component {
                 </h1>
                 <nav className="app__menu">
                     <ul>
-                        <li><a href="" onClick={() => this.props.onChangePage("characters")}>Characters</a></li>
-                        <li><a href="" onClick={() => this.props.onChangePage("comics")}>Comics</a></li>
+                        <li><a onClick={() => this.props.onChangePage("characters")}>Characters</a></li>
+                        <li><a onClick={() => this.props.onChangePage("comics")}>Comics</a></li>
                     </ul>
                 </nav>
             </header>

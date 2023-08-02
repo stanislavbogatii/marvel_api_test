@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/marvel_api_test/static/css/main.1c72ed44.chunk.css",
-    "main.js": "/marvel_api_test/static/js/main.cfc529de.chunk.js",
-    "main.js.map": "/marvel_api_test/static/js/main.cfc529de.chunk.js.map",
+    "main.css": "/marvel_api_test/static/css/main.72a83eaa.chunk.css",
+    "main.js": "/marvel_api_test/static/js/main.3f401a31.chunk.js",
+    "main.js.map": "/marvel_api_test/static/js/main.3f401a31.chunk.js.map",
     "runtime-main.js": "/marvel_api_test/static/js/runtime-main.afcf0d6e.js",
     "runtime-main.js.map": "/marvel_api_test/static/js/runtime-main.afcf0d6e.js.map",
     "static/js/2.6110a4b8.chunk.js": "/marvel_api_test/static/js/2.6110a4b8.chunk.js",
     "static/js/2.6110a4b8.chunk.js.map": "/marvel_api_test/static/js/2.6110a4b8.chunk.js.map",
     "index.html": "/marvel_api_test/index.html",
-    "static/css/main.1c72ed44.chunk.css.map": "/marvel_api_test/static/css/main.1c72ed44.chunk.css.map",
+    "static/css/main.72a83eaa.chunk.css.map": "/marvel_api_test/static/css/main.72a83eaa.chunk.css.map",
     "static/js/2.6110a4b8.chunk.js.LICENSE.txt": "/marvel_api_test/static/js/2.6110a4b8.chunk.js.LICENSE.txt",
     "static/media/error.42292aa1.gif": "/marvel_api_test/static/media/error.42292aa1.gif",
     "static/media/mjolnir.61f31e18.png": "/marvel_api_test/static/media/mjolnir.61f31e18.png",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.afcf0d6e.js",
     "static/js/2.6110a4b8.chunk.js",
-    "static/css/main.1c72ed44.chunk.css",
-    "static/js/main.cfc529de.chunk.js"
+    "static/css/main.72a83eaa.chunk.css",
+    "static/js/main.3f401a31.chunk.js"
   ]
 }

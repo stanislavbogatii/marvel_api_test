@@ -144,10 +144,12 @@ class CharList extends Component {
 
 
         return (
-            <div className="char__list">
-                {errorMessage}
-                {spinner}
-                {content}
+            <div className='randomchar__content'>
+                <div className="char__list">
+                    {errorMessage}
+                    {spinner}
+                    {content}
+                </div>        
                 <button 
                     className="button button__main button__long"
                     disabled={newItemLoading}

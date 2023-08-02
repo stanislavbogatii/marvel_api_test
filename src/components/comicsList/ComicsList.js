@@ -108,9 +108,11 @@ class ComicsList extends Component {
 
         return (
             <div className="comics__list">
-                {spinner}
-                {errorMessage}
-                {content}
+                <div className='randomchar__content'>
+                    {spinner}
+                    {errorMessage}
+                    {content}
+                </div>
                 <button 
                 className="button button__main button__long"
                 disabled={singleLoading}

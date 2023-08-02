@@ -10,8 +10,7 @@
     }
     &__grid {
         display: flex;
-        justify-content: space-between;
-        // max-width: 875px;
+        justify-content: space-around;
         column-gap: 25px;
         flex-wrap: wrap;
         column-gap: 25px;
@@ -48,5 +47,22 @@
 @media  screen and (max-width: 1050px) {
     .char__list {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .char {
+    &__item {
+        
+        height: 200px;
+        width: 400px;
+        display: flex;
+        justify-content: left;
+        border-radius: 5px;
+        img {
+            margin: 0;
+            border-radius: 5px;
+        }
+    }
     }
 }

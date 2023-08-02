@@ -31,10 +31,9 @@ class CharInfo extends Component {
         const card = document.querySelector('.char__info')
         const preRect = charList.getBoundingClientRect();
         if (preRect.top <= 0) {
-            card.classList.add("fix");
-        }
-        if (preRect.top > 0) {
-            card.classList.remove("fix");
+            card.style.marginTop = -1 * preRect.top + 'px';
+        } else {
+            card.style.marginTop = '0px';
         }
     }
 

@@ -48,9 +48,9 @@ input::-webkit-inner-spin-button {
 }
 
 .app {
-    width: 1300px;
+    max-width: 1300px;
     margin: 0 auto;
-    padding: 50px 0 50px 0;
+    padding: 50px;
     position: relative;
     .bg-decoration {
         position: absolute;
@@ -65,15 +65,20 @@ main {
     position: relative;
 }
 
+@media  screen and (max-width: 820px) {
+    main {
+        margin-top: 20px;
+    }
+    .app {
+        padding: 5px;
+        padding-top: 10px;
+    }
+}
+
 .pulse {
     animation: pulse 1.5s ease-in-out .5s infinite
 }
 
-.fix {
-    position: fixed;
-    top: 0;
-    right: 0;
-}
 
 @keyframes pulse {
     0% {

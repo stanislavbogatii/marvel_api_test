@@ -2,16 +2,18 @@
 
 .char {
     &__content {
-        position: relative;
         margin-top: 50px;
-        display: grid;
-        grid-template-columns: 850px 400px;
-        column-gap: 50px;
+        display: flex;
+        max-width: 1300px;
+        column-gap: 25px;
         align-items: start;
     }
     &__grid {
-        display: grid;
-        grid-template-columns: repeat(4, 200px);
+        display: flex;
+        justify-content: space-between;
+        // max-width: 875px;
+        column-gap: 25px;
+        flex-wrap: wrap;
         column-gap: 25px;
         row-gap: 30px;
     }
@@ -40,5 +42,11 @@
         line-height: 29px;
         text-transform: uppercase;
         color: #fff;
+    }
+}
+
+@media  screen and (max-width: 1050px) {
+    .char__list {
+        width: 100%;
     }
 }
